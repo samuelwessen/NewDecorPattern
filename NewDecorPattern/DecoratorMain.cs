@@ -74,28 +74,30 @@ namespace NewDecorPattern
                         inputText = new Inserted(inputText);
                         break;
 
-                    //case 'g' or 'G':
-                    //    Console.WriteLine("Add Italic text");
-                    //    inputText = new Italic(inputText);
-                    //    break;
+                    case 'g' or 'G':
+                        Console.WriteLine("Add Italic text");
+                        inputText = new Italic(inputText);
+                        break;
 
-                    //case 'h' or 'H':
-                    //    Console.WriteLine("Add Marked text");
-                    //    decor = new Marked(decor);
-                    //    break;
-                    //case 'i' or 'I':
-                    //    Console.WriteLine("Add Smaller text");
-                    //    decor = new Smaller(decor);
-                    //    break;
-                    //case 'j' or 'J':
-                    //    Console.WriteLine("Add SubScript text");
-                    //    decor = new SubScript(decor);
-                    //    break;
+                    case 'h' or 'H':
+                        Console.WriteLine("Add Marked text");
+                        inputText = new Marked(inputText);
+                        break;
 
-                    //case 'k' or 'K':
-                    //    Console.WriteLine("Add SuperScript text");
-                    //    decor = new SuperScript(decor);
-                    //    break;
+                    case 'i' or 'I':
+                        Console.WriteLine("Add Smaller text");
+                        inputText = new Smaller(inputText);
+                        break;
+
+                    case 'j' or 'J':
+                        Console.WriteLine("Add SubScript text");
+                        inputText = new SubScript(inputText);
+                        break;
+
+                    case 'k' or 'K':
+                        Console.WriteLine("Add SuperScript text");
+                        inputText = new SuperScript(inputText);
+                        break;
 
                     case 'x' or 'X':
                         Console.Write("Exiting program");
